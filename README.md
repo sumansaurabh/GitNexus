@@ -295,6 +295,8 @@ GitNexus builds a complete knowledge graph of your codebase through a multi-phas
 5. **Processes** — Traces execution flows from entry points through call chains
 6. **Search** — Builds hybrid search indexes for fast retrieval
 
+> **Deep Dive:** See [ARCHITECTURE.md](ARCHITECTURE.md) for a detailed technical walkthrough of the 9-stage indexing pipeline, how connections between nodes are identified (import resolution, call graph construction, inheritance detection, community clustering, execution flow tracing), how confidence scoring works, and why it's fast.
+
 ### Supported Languages
 
 TypeScript, JavaScript, Python, Java, C, C++, C#, Go, Rust
